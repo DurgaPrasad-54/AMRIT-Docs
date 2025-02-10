@@ -30,4 +30,4 @@
        npm start
        ```
 
-By default, your application will be available at `http://localhost:4200/`. You can access it in your browser.
+Access your application through your browser using `http://localhost:{PORT}`, where PORT is defined in the [AMRIT documentation](https://github.com/PSMRI/AMRIT/blob/main/README.md).
