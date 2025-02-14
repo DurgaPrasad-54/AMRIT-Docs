@@ -11,7 +11,7 @@
 ## Developer Guide
 
 * [Codebase structure](developer-guide/codebase-structure.md)
-* [Development environment setup](developer-guide/development-environment-setup/README.md)
+* [Development environment setup](developer-guide/development-environment-setup.md)
   * [System Requirements](developer-guide/development-environment-setup/system-requirements.md)
   * [Software dependencies](developer-guide/development-environment-setup/software-dependencies.md)
   * [Installation Instructions](developer-guide/development-environment-setup/installation-instructions/README.md)
@@ -24,14 +24,15 @@
 * [Installation guide](deployment/installation-guide.md)
 * [CI/CD pipelines](deployment/ci-cd-pipelines.md)
 * [Observability](deployment/observability.md)
-* [Configuration and setup](deployment/configuration-and-setup.md)
+* [Wildfly](deployment/wildfly/README.md)
+  * [SSL Configuration for WildFly](deployment/wildfly/ssl-configuration-for-wildfly.md)
 
 ## Data Management
 
 * [Database schema](data-management/database-schema.md)
 * [Data privacy and security](data-management/data-privacy-and-security.md)
 * [Data export](data-management/data-export.md)
-* [Reporting](data-management/reporting/README.md)
+* [Reporting](data-management/reporting.md)
   * [Integrating DHIS2 with AMRIT](data-management/reporting/integrating-dhis2-with-amrit.md)
   * [Example Python Scripts](data-management/reporting/example-python-scripts.md)
 
@@ -41,8 +42,3 @@
 * [How to get help](community-and-support/how-to-get-help.md)
 * [Code of conduct](community-and-support/code-of-conduct.md)
 * [Contribution guidelines](community-and-support/contribution-guidelines.md)
-
-## Product Documentation
-
-* [Release Notes](product-documentation/release-notes.md)
-* [Product Backlog and Roadmap](product-documentation/product-backlog-and-roadmap.md)

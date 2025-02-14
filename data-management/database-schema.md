@@ -10,7 +10,7 @@ Here is the list of existing databases in the AMRIT platform.
 
 4\. **db\_reporting** -> Stores All AMRIT service lines reporting related data.
 
-&#x20;![](../.gitbook/assets/image.png)
+&#x20;![](<../.gitbook/assets/image (3).png>)
 
 ## Setting up DB Schema
 
@@ -54,15 +54,15 @@ Dummy username and passwords\
 
 Here is the AMRIT DB Architecture diagram.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## DB Tables
 
 ### Beneficiary Registration Tables
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 104 Tables
 
