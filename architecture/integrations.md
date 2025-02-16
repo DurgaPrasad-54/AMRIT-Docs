@@ -6,11 +6,11 @@ AMRIT is designed to be an interoperable and extensible platform, integrating wi
 
 ### **1. CTI (Computer Telephony Integration) with C-Zentrix**
 
-The CTI integration using C-Zentrix powers AMRIT’s helpline functionality, enabling systems like 104 and 1097 to efficiently handle calls. Features include call routing, logging, and interaction history, ensuring helplines can function seamlessly and provide critical support to beneficiaries.
+The CTI integration using C-Zentrix powers AMRIT’s health helpline functionality, enabling systems like 104 and 1097 to efficiently handle calls. Features include call routing, logging, and interaction history, ensuring helplines can function seamlessly and provide critical support to beneficiaries.
 
 #### **Open Alternatives**
 
-While C-Zentrix is the current integration, AMRIT can be extended to include open-source telephony solutions such as [Asterisk](https://www.asterisk.org/) or [FreeSWITCH](https://freeswitch.com/). Contributors are encouraged to propose and implement such alternatives to increase the platform's flexibility.
+While C-Zentrix is the current integration, AMRIT can be extended to include open-source telephony solutions (eg:- [Asterisk](https://www.asterisk.org/) or [FreeSWITCH](https://freeswitch.com/)). Contributors are encouraged to propose and implement such alternatives to increase the platform's flexibility.
 
 ***
 
