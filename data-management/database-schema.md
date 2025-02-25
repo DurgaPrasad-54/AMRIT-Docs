@@ -27,29 +27,29 @@ Download a pre-configured dummy database to quickly restore and simulate the AMR
 Dummy username and passwords\
 
 
-| Module                              | Username                      | password                      |
-| ----------------------------------- | ----------------------------- | ----------------------------- |
-| 1097                                | 1097User                      | Test@123                      |
-| ECD Supervisor                      | ECDSupervisor2, ecdsupervisor | Test@123                      |
-| ECD Associate                       | ECDAssociate                  | Test@123                      |
-| ECD ANM                             | ECDANM                        | Test@123                      |
-| ECD MO                              | ECDMedicalOfficer             | Test@123                      |
-| ECD quality Supervisor              | ECDQualitySupervisor          | Test@123                      |
-| ECD Quality Auditor                 | ECDQualityAuditor             | Test@123                      |
-| 104HAO                              | 104hao                        | Test@123                      |
-| 104MO                               | 104mo                         | Test@123                      |
-| 104 supervisor                      | 104Supervisor                 | Test@123                      |
-| 104SIO(service improvement officer) | 104SIO                        | Test@123                      |
-| 104CO(CounsellingOfficer)           | 104psmri,104co                | Test@123                      |
-| 104 Surveyor                        | 104Surveyor                   | Test@123                      |
-| TM(Telemedicine)                    | TMUser                        | Test@123                      |
-| Admin(ECD, 104)                     | 104ECDAdmin                   | P@ssword@07                   |
-| Admin(TM,HWC)                       | HWCTMAdmin                    | Test@123                      |
-| Admin(1097)                         | 1097Admin                     | Test@123                      |
-| Admin(MMU)                          | MMUAdmin                      | Test@123                      |
-| HWC                                 | HWCUser                       | Test@123                      |
-| MMU                                 | MMUUser                       | Test@123                      |
-| Admin                               | SuperAdmin                    | [admin@123](mailto:admin@123) |
+| Module                              | Username                      | password    |
+| ----------------------------------- | ----------------------------- | ----------- |
+| 1097                                | 1097User                      | Test@123    |
+| ECD Supervisor                      | ECDSupervisor2, ecdsupervisor | Test@123    |
+| ECD Associate                       | ECDAssociate                  | Test@123    |
+| ECD ANM                             | ECDANM                        | Test@123    |
+| ECD MO                              | ECDMedicalOfficer             | Test@123    |
+| ECD quality Supervisor              | ECDQualitySupervisor          | Test@123    |
+| ECD Quality Auditor                 | ECDQualityAuditor             | Test@123    |
+| 104HAO                              | 104hao                        | Test@123    |
+| 104MO                               | 104mo                         | Test@123    |
+| 104 supervisor                      | 104Supervisor                 | Test@123    |
+| 104SIO(service improvement officer) | 104SIO                        | Test@123    |
+| 104CO(CounsellingOfficer)           | 104psmri,104co                | Test@123    |
+| 104 Surveyor                        | 104Surveyor                   | Test@123    |
+| TM(Telemedicine)                    | TMUser                        | Test@123    |
+| Admin(ECD, 104)                     | 104ECDAdmin                   | P@ssword@07 |
+| Admin(TM,HWC)                       | HWCTMAdmin                    | Test@123    |
+| Admin(1097)                         | 1097Admin                     | Test@123    |
+| Admin(MMU)                          | MMUAdmin                      | Test@123    |
+| HWC                                 | HWCUser                       | Test@123    |
+| MMU                                 | MMUUser                       | Test@123    |
+| Admin                               | SuperAdmin                    | admin@123   |
 
 ## AMRIT DB Architecture
 
