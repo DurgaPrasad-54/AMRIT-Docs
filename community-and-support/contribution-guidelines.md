@@ -39,6 +39,55 @@ To maintain consistency in the codebase, please adhere to the following guidelin
 * **Testing:** Ensure your code is well-tested. If applicable, add unit tests for your changes.
 * **Documentation:** Update or add documentation as needed, especially if your changes impact the user experience or developer API.
 
+**Commit Message Convention**
+
+AMRIT follows a specific commit message format that is automatically enforced both locally and in pull requests:
+
+* **Format**: `type(scope): subject`
+* **Example**: `feat(login): add remember me functionality`
+
+**Commit Types:**
+- **feat**: A new feature
+- **fix**: A bug fix
+- **docs**: Documentation changes
+- **style**: Code style changes (formatting, etc.)
+- **refactor**: Code changes that neither fix bugs nor add features
+- **perf**: Performance improvements
+- **test**: Adding or fixing tests
+- **build**: Changes to build process or tools
+- **ci**: Changes to CI configuration
+- **chore**: Other changes (e.g., maintenance tasks, dependencies)
+
+**Setting Up Local Commit Hooks**
+
+This project uses Git hooks to enforce consistent code quality and commit message standards. Follow these steps to set up the hooks locally:
+
+* **Prerequisites**
+  - Node.js (v14 or later)
+  - npm (comes with Node.js)
+
+* **Setup Steps**
+  1. **Install Node.js and npm**
+     - Download and install from [nodejs.org](https://nodejs.org/)
+     - Verify installation with:
+       ```
+       node --version
+       npm --version
+       ```
+
+  2. **Install dependencies**
+     - From the project root directory, run:
+       ```
+       npm ci
+       ```
+     - This installs required dependencies including Husky and commitlint
+
+  3. **Verify hooks installation**
+     - The hooks should be automatically installed by Husky
+     - You can verify by checking if the .husky directory contains executable hooks
+
+Your commit messages will be automatically validated when you commit, ensuring project consistency.
+
 **5. Review Process**
 
 Once you submit a pull request:

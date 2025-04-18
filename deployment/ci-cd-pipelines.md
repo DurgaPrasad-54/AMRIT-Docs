@@ -13,6 +13,12 @@ When a contributor works on new features or fixes, every change goes through a r
 * [**Pull Request Template**](https://github.com/PSMRI/.github/blob/main/PULL_REQUEST_TEMPLATE.md): Ensure that new changes are documented well and a JIRA ticket ID is provided in the description.&#x20;
 * **Code Review**: Every code modification is submitted via a structured pull request. PR review process is assisted by [Code Rabbit](https://www.coderabbit.ai/).
 * **Automated Checks**: Immediate validation of code quality and security.
+* **Commitlint Check**: All commit messages in pull requests are automatically validated against AMRIT's commit message convention using commitlint to ensure:
+  * Consistent commit history across the project
+  * Better readability and automated changelog generation
+  * Proper categorization of changes (features, fixes, etc.)
+  * Commits follow the required format: `type(scope): subject`
+  * For more details on the commit message format and types, see the [Contribution Guidelines](../community-and-support/contribution-guidelines.md).
 * **Transparency**: Clear documentation of changes, motivations, and testing performed.
 
 ### 2. Automated Quality Assurance
