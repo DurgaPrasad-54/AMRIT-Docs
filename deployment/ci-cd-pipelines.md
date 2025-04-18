@@ -18,7 +18,7 @@ When a contributor works on new features or fixes, every change goes through a r
   * Better readability and automated changelog generation
   * Proper categorization of changes (features, fixes, etc.)
   * Commits follow the required format: `type(scope): subject`
-  * For more details on the commit message format and types, see the [Contribution Guidelines](../community-and-support/contribution-guidelines.md).
+  * For more details on the commit message format and types, see the [Contribution Guidelines](https://piramal-swasthya.gitbook.io/amrit/community-and-support/contribution-guidelines).
 * **Transparency**: Clear documentation of changes, motivations, and testing performed.
 
 ### 2. Automated Quality Assurance
