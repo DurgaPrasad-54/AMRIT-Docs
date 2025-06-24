@@ -27,9 +27,7 @@ sudo useradd -d /home/dhis -m dhis -s /bin/false
 
 3. Set the password for the created user:
 ```
-
 sudo passwd dhis
-
 ```
 Use a strong password with at least 15 random characters.
 
@@ -43,9 +41,7 @@ Create a config directory for the DHIS2 instance. This directory will also be us
 
 1. Create directory:
 ```
-
 sudo -u dhis mkdir /home/dhis/config
-
 ```
 
 ---
@@ -58,9 +54,7 @@ Set your system timezone (recommended for logging and DB timestamps).
 
 1. Set timezone (Asia/Kolkata):
 ```
-
 sudo dpkg-reconfigure tzdata
-
 ```
 Choose **Asia → Kolkata → OK**.
 
@@ -74,55 +68,39 @@ Install PostgreSQL with the following steps.
 
 1. Add PostgreSQL repository:
 ```
-
 sudo sh -c 'echo "deb https://apt.postgresql.org/pub/repos/apt \$(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
-
 ```
 2. Import the PostgreSQL repository signing key:
 ```
-
 curl -fsSL https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/postgresql.gpg
-
 ```
 3. Update the package lists:
 ```
-
 sudo apt update -y \&\& sudo apt upgrade -y
-
 ```
 4. Install PostgreSQL 16:
 ```
-
 sudo apt-get install -y postgresql-16 postgresql-16-postgis-3
-
 ```
 5. Ensure PostgreSQL is started and enabled:
 ```
-
 sudo systemctl start postgresql
 sudo systemctl enable postgresql
-
 ```
 6. Create a non-privileged database user `dhis`:
 ```
-
 sudo -u postgres createuser -SDRP dhis
-
 ```
 Enter a secure password at the prompt.
 7. Create a database named `dhis` owned by `dhis` database user:
 ```
-
 sudo -u postgres createdb -O dhis dhis
-
 ```
 8. Create extensions as postgres user:
 ```
-
 sudo -u postgres psql -c "create extension postgis;" dhis
 sudo -u postgres psql -c "create extension btree_gin;" dhis
 sudo -u postgres psql -c "create extension pg_trgm;" dhis
-
 ```
 
 ---
@@ -135,9 +113,7 @@ The recommended Java JDK for DHIS2 2.40 and above is OpenJDK 17.
 
 1. Install openjdk-17:
 ```
-
 sudo apt-get install -y openjdk-17-jdk
-
 ```
 2. Check version of java:
 ```
@@ -156,10 +132,8 @@ The database connection information is provided to DHIS2 through a configuration
 
 1. Create and edit the file:
 ```
-
 sudo -u dhis touch /home/dhis/config/dhis.conf
 sudo -u dhis vim /home/dhis/config/dhis.conf
-
 ```
 2. Paste the following (replace `xxxx` with your password):
 ```
@@ -183,37 +157,27 @@ To save and exit: press `ESC`, then `:wq`.
 
 1. Install Tomcat user instance:
 ```
-
 sudo apt-get install -y tomcat9-user
-
 ```
 2. Create an instance named `tomcatdhis`:
 ```
-
 sudo tomcat9-instance-create /home/dhis/tomcat-dhis
 sudo chown -R dhis:dhis /home/dhis/tomcat-dhis/
-
 ```
 3. Edit `setenv.sh` and append:
 ```
-
 sudo -u dhis vim /home/dhis/tomcat-dhis/bin/setenv.sh
-
 ```
 Paste:
 ```
-
 export JAVA_HOME='/usr/lib/jvm/java-17-openjdk-amd64/'
 export JAVA_OPTS='-Xms3g -Xmx6g'
 export DHIS2_HOME='/home/dhis/config'
-
 ```
 To save and exit: press `ESC`, then `:wq`.
 4. Edit `startup.sh`:
 ```
-
 sudo -u dhis vim /home/dhis/tomcat-dhis/bin/startup.sh
-
 ```
 Paste:
 ```
@@ -239,15 +203,11 @@ To save and exit: press `ESC`, then `:wq`.
 
 1. Download war file:
 ```
-
 wget -O dhis.war https://releases.dhis2.org/40/dhis2-stable-40.3.0.war
-
 ```
 2. Move the WAR file into the Tomcat webapps directory:
 ```
-
 sudo mv dhis.war /home/dhis/tomcat-dhis/webapps/ROOT.war
-
 ```
 
 ---
@@ -258,9 +218,7 @@ sudo mv dhis.war /home/dhis/tomcat-dhis/webapps/ROOT.war
 
 1. Start the DHIS2 instance:
 ```
-
 sudo -u dhis /home/dhis/tomcat-dhis/bin/startup.sh
-
 ```
 
 ---
@@ -271,9 +229,7 @@ sudo -u dhis /home/dhis/tomcat-dhis/bin/startup.sh
 
 1. Check log:
 ```
-
 tail -f /home/dhis/tomcat-dhis/logs/catalina.out
-
 ```
 
 ---
@@ -284,9 +240,7 @@ tail -f /home/dhis/tomcat-dhis/logs/catalina.out
 
 1. To stop the DHIS2 instance:
 ```
-
 sudo -u dhis /home/dhis/tomcat-dhis/bin/shutdown.sh
-
 ```
 
 ---
