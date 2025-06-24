@@ -21,7 +21,9 @@ DHIS2 on Tomcat should never be run as the root user. Instead, create a standard
 **Steps:**
 
 1. Create a user:
+```
 sudo useradd -d /home/dhis -m dhis -s /bin/false
+```
 
 3. Set the password for the created user:
 ```
