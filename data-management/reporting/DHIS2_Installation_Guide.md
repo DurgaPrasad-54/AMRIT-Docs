@@ -92,6 +92,7 @@ sudo systemctl enable postgresql
 sudo -u postgres createuser -SDRP dhis
 ```
 Enter a secure password at the prompt.
+
 7. Create a database named `dhis` owned by `dhis` database user:
 ```
 sudo -u postgres createdb -O dhis dhis
