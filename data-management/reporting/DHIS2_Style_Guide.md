@@ -1,4 +1,3 @@
-```markdown
 # DHIS2 Style Guide
 
 ## Major Components of a Dashboard
