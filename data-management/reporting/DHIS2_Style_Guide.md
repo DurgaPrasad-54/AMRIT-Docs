@@ -16,7 +16,7 @@ The header provides navigation and branding elements, ensuring recognition and c
 
 ![Login Page](images/login-page.png)
 
-![Login Page](images/Appearance.jpg)
+![Appearance](images/Appearance.jpg)
 
 #### 1.3 Dashboard Level
 
@@ -175,6 +175,8 @@ The header provides navigation and branding elements, ensuring recognition and c
 
 ---
 ## 6. Data Visualizer Menu Options
+
+![top-panel](images/top-panel.jpg)
 
 - **Update:**  
   - Apply changes to visualization or data selection.
