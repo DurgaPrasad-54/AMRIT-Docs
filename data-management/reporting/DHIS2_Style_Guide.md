@@ -174,21 +174,6 @@ The header provides navigation and branding elements, ensuring recognition and c
 | Choropleth Map     | Color polygons based on data value                                          | District boundaries, thematic data    |
 
 ---
-
-## 6. Maps
-
-- **Base Maps:**  
-  - OSM Light, OSM Detailed
-  - Bing Maps (if API key is added)
-- **Map Features:**  
-  - Add labels, move points, set locations
-  - Save, share, download as PNG
-  - Use predefined legends (created in Maintenance app)
-
-![Map Example](images/map-example.png)
-
----
-
 ## 7. Data Visualizer Menu Options
 
 - **Update:**  
