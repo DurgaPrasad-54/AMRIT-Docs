@@ -176,7 +176,7 @@ The header provides navigation and branding elements, ensuring recognition and c
 ---
 ## 6. Data Visualizer Menu Options
 
-![top-panel](images/top-panel.jpg)
+![top-panel](images/top-panel.png)
 
 - **Update:**  
   - Apply changes to visualization or data selection.
