@@ -209,19 +209,5 @@ The header provides navigation and branding elements, ensuring recognition and c
 
 ---
 
-## Example Dashboard Layout
-
-```
-
-| Piramal DHIS 2 - Dashboard | Online | Foundation | RK | ... |
-| :-- | :-- | :-- | :-- | :-- |
-| Save changes | Print preview | Filter settings | Translate | Delete |
-| Dashboard title | Dashboard description |  |  |  |
-| 104 NHM Dashboard |  |  |  |  |
-| Dashboard code |  |  |  |  |
-| Layout: Freeflow / Change layout | Add new items | Search for items |  |  |
-| ...visualizations... |  |  |  |  |
-
-```
 
 <div style="text-align: center">⁂</div>
