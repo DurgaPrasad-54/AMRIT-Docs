@@ -16,6 +16,8 @@ The header provides navigation and branding elements, ensuring recognition and c
 
 ![Login Page](images/login-page.png)
 
+![Login Page](images/Appearance.png)
+
 #### 1.3 Dashboard Level
 
 - **Online/Offline Indicator:**  
