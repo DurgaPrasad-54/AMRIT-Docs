@@ -16,7 +16,7 @@ The header provides navigation and branding elements, ensuring recognition and c
 
 ![Login Page](images/login-page.png)
 
-![Login Page](images/Appearance.png)
+![Login Page](images/Appearance.jpg)
 
 #### 1.3 Dashboard Level
 
