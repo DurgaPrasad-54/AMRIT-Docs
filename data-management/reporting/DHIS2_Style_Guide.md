@@ -208,6 +208,3 @@ The header provides navigation and branding elements, ensuring recognition and c
   - Download image or data (JSON, CSV, Excel).
 
 ---
-
-
-<div style="text-align: center">⁂</div>
