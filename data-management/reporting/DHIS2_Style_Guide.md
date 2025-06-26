@@ -174,7 +174,7 @@ The header provides navigation and branding elements, ensuring recognition and c
 | Choropleth Map     | Color polygons based on data value                                          | District boundaries, thematic data    |
 
 ---
-## 7. Data Visualizer Menu Options
+## 6. Data Visualizer Menu Options
 
 - **Update:**  
   - Apply changes to visualization or data selection.
