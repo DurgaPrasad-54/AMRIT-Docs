@@ -16,6 +16,8 @@ DHIS2 is an open-source platform used for health information systems. This guide
 
 ### 1. Create a DHIS2 System User
 
+![Login Page](images/login-page.png)
+
 DHIS2 on Tomcat should never be run as the root user. Instead, create a standard user and use it to run the Tomcat instance to enhance security.
 
 **Steps:**
