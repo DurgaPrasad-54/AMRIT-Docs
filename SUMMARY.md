@@ -18,6 +18,7 @@
     * [For UI repositories](developer-guide/development-environment-setup/installation-instructions/for-ui-repositories.md)
     * [For API repositories](developer-guide/development-environment-setup/installation-instructions/for-api-repositories.md)
   * [Common Issues and Troubleshooting](developer-guide/development-environment-setup/common-issues-and-troubleshooting.md)
+* [MMU Offline Setup](developer-guide/mmu-offline-setup.md)
 
 ## Deployment
 
