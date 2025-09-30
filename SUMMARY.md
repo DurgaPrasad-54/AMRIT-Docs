@@ -6,7 +6,8 @@
 
 * [System architecture overview](architecture/system-architecture-overview.md)
 * [API Guide](architecture/api-guide.md)
-* [Integrations](architecture/integrations.md)
+* [Integrations](architecture/integrations/README.md)
+  * [ABDM - FHIR  Developer Intro](architecture/integrations/abdm-fhir-developer-intro.md)
 
 ## Developer Guide
 
