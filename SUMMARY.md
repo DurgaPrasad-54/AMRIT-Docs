@@ -7,7 +7,11 @@
 * [System architecture overview](architecture/system-architecture-overview.md)
 * [API Guide](architecture/api-guide.md)
 * [Integrations](architecture/integrations/README.md)
-  * [ABDM - FHIR  Developer Intro](architecture/integrations/abdm-fhir-developer-intro.md)
+  * [ABDM - FHIR  Developer Intro](architecture/integrations/abdm-fhir-developer-intro/README.md)
+    * [AMRIT ↔ ABDM Integration](architecture/integrations/abdm-fhir-developer-intro/amrit-abdm-integration/README.md)
+      * [Milestone One (M1) - ABHA & Identity Layer](architecture/integrations/abdm-fhir-developer-intro/amrit-abdm-integration/milestone-one-m1-abha-and-identity-layer.md)
+      * [Milestone Two (M2) - HIP Data Sharing](architecture/integrations/abdm-fhir-developer-intro/amrit-abdm-integration/milestone-two-m2-hip-data-sharing.md)
+      * [Milestone Three (M3) - HIU Data Consumption](architecture/integrations/abdm-fhir-developer-intro/amrit-abdm-integration/milestone-three-m3-hiu-data-consumption.md)
 
 ## Developer Guide
 
