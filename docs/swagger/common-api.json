@@ -1879,9 +1879,6 @@
           "required": true
         },
         "responses": {
-          "400": {
-            "description": "Validation or business error"
-          },
           "201": {
             "description": "Feedback accepted",
             "content": {
@@ -1891,6 +1888,9 @@
                 }
               }
             }
+          },
+          "400": {
+            "description": "Validation or business error"
           }
         }
       }
