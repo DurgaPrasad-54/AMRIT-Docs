@@ -22,10 +22,9 @@ The **AMRIT DB Service** simplifies the initial setup of database schemas across
 
 Download a pre-configured dummy database to quickly restore and simulate the AMRIT platform's functionality for testing or local development. The zip file includes SQL scripts to populate data for different modules.
 
-{% file src="../.gitbook/assets/AmritMasterData.zip" %}
+{% file src="../.gitbook/assets/AmritMasterData (1).zip" %}
 
-Dummy username and passwords\
-
+Dummy username and passwords<br>
 
 | Module                              | Username                      | password    |
 | ----------------------------------- | ----------------------------- | ----------- |

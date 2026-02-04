@@ -67,7 +67,6 @@ The sync process consists of three key parts:
 ***
 
 This flow ensures **data consistency**, **unique identification**, and **uninterrupted healthcare delivery** in remote areas.\
-\
-
+<br>
 
 <figure><img src="../.gitbook/assets/MMU.jpg" alt=""><figcaption></figcaption></figure>

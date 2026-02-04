@@ -99,4 +99,4 @@ Check if the logs are being generated at the specified location (e.g., logs/inve
 
 This document outlines the process of configuring ELK for log collection from our application. We have set up Elasticsearch, Logstash, and Kibana on Ubuntu, configured Filebeat for log forwarding, and adjusted our application’s properties file to use environment variables for log paths. The Jenkins pipeline is configured to pass the necessary environment variables to the application, ensuring that the logs are written to the correct location.
 
-\
+<br>

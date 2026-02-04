@@ -24,6 +24,9 @@
     * [For API repositories](developer-guide/development-environment-setup/installation-instructions/for-api-repositories.md)
   * [Common Issues and Troubleshooting](developer-guide/development-environment-setup/common-issues-and-troubleshooting.md)
 * [MMU Offline Setup](developer-guide/mmu-offline-setup.md)
+* [Elasticsearch](developer-guide/elasticsearch/README.md)
+  * [Installation Instructions](developer-guide/elasticsearch/installation-instructions.md)
+  * [Elasticsearch Sync Operations Guide](developer-guide/elasticsearch/elasticsearch-sync-operations-guide.md)
 
 ## Deployment
 
